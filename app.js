@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cookies(process.env.JWT_SECRET));
 
 app.get("/", (req, res) => {
-  res.send("welcome");
+  res.send("welcome to the login system");
 });
 app.get("/", (req, res) => {
   res.send("welcome");
